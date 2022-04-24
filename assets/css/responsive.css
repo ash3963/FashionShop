@@ -1,0 +1,88 @@
+@media (max-width:1430px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-100%, -50%);
+    }
+    /* Special CSS */
+}
+
+@media (max-width:1150px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 60% center;
+        min-height: 500px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-75%, -50%);
+    }
+    /* Offer CSS */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 3rem;
+    }
+    /* Special CSS  */
+    .special .countdown-container{
+        padding-top: 1rem;
+        padding-bottom:2rem ;
+    }
+
+
+     
+}
+
+@media (max-width:760px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%,-50%) ;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+
+    /* Offer CSS  */
+    .special{
+        padding: 4rem 0;
+    }
+    /* Product CSS  */
+    .products .up_to_content h2{
+        font-size: 1rem;
+    }
+    .special .countdown-container .countdown-counter li{
+        width: 20%;
+        padding: 1rem;
+    }
+
+    /* Special CSS  */
+
+    /* Testimonal CSS */
+    .testimonial .carousel-control-next,
+    .testimonial .carousel-control-prev{
+    display: none;
+}
+}
+@media (max-width:375px){
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+}
